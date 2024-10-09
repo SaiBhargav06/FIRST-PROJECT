@@ -1,0 +1,87 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffe1ff;
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  color: mediumpurple;
+}
+
+.stack-container {
+  width: 200px;
+  height: 300px;
+  border: 3px solid mediumpurple;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.stack-element {
+  width: 100%;
+  height: 50px;
+  background-color: mediumpurple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+  position: absolute;
+  bottom: 0;
+  animation: push-animation 0.5s ease-in-out forwards;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid mediumpurple;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: lightpink;
+  color: mediumpurple;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: mediumpurple;
+  color: lightpink;
+}
+
+/* Push Animation */
+@keyframes push-animation {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Pop Animation */
+@keyframes pop-animation {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}

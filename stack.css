@@ -1,0 +1,44 @@
+* {
+  background-color: #7e60bf;
+}
+.Head-page {
+  border: 2px solid #e4b1f0;
+  text-align: center;
+  color: #e4b1f0;
+}
+.Body-page {
+  border: 2px solid #e4b1f0;
+  text-align: center;
+  color: #e4b1f0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Push {
+  border: 2px solid #e4b1f0;
+  padding: 5px;
+  color: #e4b1f0;
+  margin-bottom: 10px;
+}
+
+.POP {
+  border: 2px solid #e4b1f0;
+  padding: 5px;
+  color: #e4b1f0;
+}
+.Visual {
+  color: #e4b1f0;
+  font-family: monospace;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.C1 {
+  border: 2px solid #e4b1f0;
+  margin-top: 10px;
+}
+.C2 {
+  border: 2px solid #e4b1f0;
+  margin-top: 10px;
+}

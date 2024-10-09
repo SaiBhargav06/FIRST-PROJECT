@@ -1,0 +1,53 @@
+* {
+  background-color: #7e60bf;
+}
+.P1 {
+  color: #e4b1f0;
+  font-family: monospace;
+}
+.Header-page {
+  border: 2px solid #e4b1f0;
+  text-align: center;
+  color: #e4b1f0;
+}
+#name {
+  border: 3px solid #e4b1f0;
+  border-radius: 5px;
+  font-size: medium;
+  width: 220px;
+  height: 30px;
+}
+#message {
+  border: 3px solid #e4b1f0;
+  border-radius: 5px;
+  font-size: larger;
+}
+#mail {
+  border: 3px solid #e4b1f0;
+  font-size: medium;
+  border-radius: 5px;
+  width: 220px;
+  height: 30px;
+}
+.Intro-page {
+  border: 2px solid #e4b1f0;
+  text-align: center;
+  color: #e4b1f0;
+}
+.P2 {
+  text-align: center;
+  color: #e4b1f0;
+  font-family: monospace;
+}
+.Contact-us-page {
+  padding: 20px;
+  margin-top: 19px;
+  border: 2px solid #e4b1f0;
+  color: #e4b1f0;
+}
+.Li1 {
+  color: #e4b1f0;
+}
+.Li2 {
+  color: #e4b1f0;
+}

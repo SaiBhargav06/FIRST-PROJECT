@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stack.css" />
+    <title>Stack implementation</title>
+  </head>
+  <body>
+    <section class="Head-page">
+      <h1>What actually is a stack ?</h1>
+      <p>
+        A Stack is a linear data structure that follows a particular order in
+        which the operations are performed. The order may be LIFO(Last In First
+        Out) or FILO(First In Last Out). LIFO implies that the element that is
+        inserted last, comes out first and FILO implies that the element that is
+        inserted first, comes out last.
+      </p>
+    </section>
+    <section class="Body-page">
+      <h1>Implementation of the STACK datastructure</h1>
+      <p>
+        In array implementation, the stack is formed by using the array. All the
+        operations regarding the stack are performed using arrays. Lets see how
+        each operation can be implemented on the stack using array data
+        structure.
+      </p>
+    </section>
+    <details class="Push">
+      <summary>Adding an element onto stack(PUSH Operation)</summary>
+      <section class="PUSH">
+        <p>
+          Adding an element into the top of the stack is referred to as push
+          operation. Push operation involves following two steps.
+        </p>
+        <ol>
+          <li>
+            Increment the variable Top so that it can now refere to the next
+            memory location.
+          </li>
+          <li>
+            Add element at the position of incremented top. This is referred to
+            as adding new element at the top of the stack.
+          </li>
+        </ol>
+      </section>
+    </details>
+    <details class="POP">
+      <summary>Deletion of an element form the stack(POP operation)</summary>
+      <section class="Pop">
+        <p>
+          Deletion of an element from the top of the stack is called pop
+          operation. The value of the variable top will be incremented by 1
+          whenever an item is deleted from the stack. The top most element of
+          the stack is stored in an another variable and then the top is
+          decremented by 1. the operation returns the deleted value that was
+          stored in another variable as the result.
+        </p>
+        <p>
+          This has the outrage to be in the front row so it wil have the
+          p[rivilage to be the moistr
+        </p>
+      </section>
+    </details>
+    <section class="Visual">
+      <p>Want to experience the stack visually click on the panda below:</p>
+      <p>
+        <a href="anime.html">
+          <img src="7100_6_07.jpg" alt="panda" class="img" />
+        </a>
+      </p>
+    </section>
+    <section class="Push">
+      <details>
+        <summary>Code for inserting an element in the stack</summary>
+        <img
+          src="Screenshot 2024-10-06 at 11.35.54 PM.png"
+          alt="push"
+          class="C1"
+        />
+      </details>
+    </section>
+    <section class="POP">
+      <details>
+        <summary>Code for deleting an element in the stack</summary>
+        <img
+          src="Screenshot 2024-10-06 at 11.36.09 PM.png"
+          alt="pop"
+          class="C2"
+        />
+      </details>
+    </section>
+  </body>
+</html>
