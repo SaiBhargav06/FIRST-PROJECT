@@ -38,6 +38,15 @@ This platform serves as a self-paced visualization based learning resource for i
 
 ## Linear Data Structures
 
+![Screenshot 2024-10-10 at 1 56 16 PM](https://github.com/user-attachments/assets/20c314ee-c218-49c1-b999-e5f848761e5b)
+
+![Screenshot 2024-10-10 at 1 56 47 PM](https://github.com/user-attachments/assets/e75bc32b-d664-40ff-9403-4e0ad9ec9298)
+
+![Screenshot 2024-10-10 at 1 57 58 PM](https://github.com/user-attachments/assets/dbc54d7d-a493-44c5-9ca8-da041ec5b066)
+
+![Screenshot 2024-10-10 at 1 58 18 PM](https://github.com/user-attachments/assets/a6c65c1e-3783-4cfc-8709-6d78023a45b2)
+
+
 ## FUTURE UPDATES
 
 1. Upload More content in the website.
